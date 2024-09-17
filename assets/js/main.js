@@ -28,7 +28,16 @@ document.getElementById('sign-up-form').addEventListener('submit', (event) =>{
         return;
     }
 
-    
+    document.querySelector("#sign-up-container").classList.add("hide");
+    document.querySelector("#confirmation-container").classList.add("show");
+    document.querySelector("#confirmation-email").innerText = inputEmail.value;
+
+    inputEmail.value = "";
+})
+
+document.querySelector("#btn-dismiss").addEventListener('click', () =>{
+    document.querySelector("#sign-up-container").classList.remove("hide");
+    document.querySelector("#confirmation-container").classList.remove("show");
 })
 
 function validarCorreo(email) {

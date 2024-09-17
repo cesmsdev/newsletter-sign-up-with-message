@@ -10,17 +10,15 @@
 </head>
 
 <body>
-    <main class="container-main">
+    <main class="container-main" id="sign-up-container">
         <section class="container-sign-up">
-            <h1 class="title">Stay updated!</h1>
+            <h2 class="title">Stay updated!</h2>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
             <ul class="list">
                 <li class="list-item">
                     <img src="assets/images/icon-list.svg" alt="Icon Image List" />
-                    <p class="item-desc">
-                        Product discovery and building what matters
-                    </p>
+                    <p class="item-desc">Product discovery and building what matters</p>
                 </li>
                 <li class="list-item">
                     <img src="assets/images/icon-list.svg" alt="Icon Image List" />
@@ -45,9 +43,18 @@
             </form>
         </section>
         <section class="container-image"></section>
-
-        <div class=""></div>
     </main>
+
+    <section class="container-success" id="confirmation-container">
+        <img src="assets/images/icon-success.svg" alt="Icon success" height="40" />
+        <h2>Thanks for subscribing!</h2>
+        <p>
+            A confirmation email has been sent to <strong id="confirmation-email"></strong>. Please open it
+            and click the button inside to confirm your subscription
+        </p>
+
+        <button id="btn-dismiss">Dismiss message</button>
+    </section>
 
     <script src="assets/js/main.js"></script>
 </body>

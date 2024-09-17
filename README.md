@@ -28,12 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot/Captura%20de%20pantalla_16-9-2024_182529_127.0.0.1.jpeg)
+![](./assets/images/screenshot/ss_0.jpeg)
+![](./assets/images/screenshot/ss_1.jpeg)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/cesmsdev/newsletter-sign-up-with-message)
-- Live Site URL: [Add live site URL here](https://newsletter-sign-up-with-message-h3jfmzgpi-cesmsdevs-projects.vercel.app/)
+- Live Site URL: [Add live site URL here](https://newsletter-sign-up-with-message.vercel.app/)
 
 ## My process
 
