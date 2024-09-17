@@ -29,7 +29,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/screenshot/ss_0.jpeg)
-![](./assets/images/screenshot/ss_1.jpeg)
 
 ### Links
 
